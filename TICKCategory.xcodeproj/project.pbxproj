@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		24712F401B48175C00EB8F30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24712F3F1B48175C00EB8F30 /* main.m */; };
 		24712F431B48175C00EB8F30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24712F421B48175C00EB8F30 /* AppDelegate.m */; };
-		24712F461B48175C00EB8F30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24712F451B48175C00EB8F30 /* ViewController.m */; };
 		24712F491B48175C00EB8F30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24712F471B48175C00EB8F30 /* Main.storyboard */; };
 		24712F4B1B48175C00EB8F30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24712F4A1B48175C00EB8F30 /* Images.xcassets */; };
 		24712F4E1B48175C00EB8F30 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24712F4C1B48175C00EB8F30 /* LaunchScreen.xib */; };
 		24712F5A1B48175C00EB8F30 /* TICKCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24712F591B48175C00EB8F30 /* TICKCategoryTests.m */; };
+		24712F671B48184000EB8F30 /* UIImage+TICKSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 24712F661B48184000EB8F30 /* UIImage+TICKSnapshot.m */; };
+		24712F6A1B48197F00EB8F30 /* SnapshotImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24712F691B48197F00EB8F30 /* SnapshotImageViewController.m */; };
+		24712F6D1B481A0B00EB8F30 /* CategoryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24712F6C1B481A0B00EB8F30 /* CategoryListViewController.m */; };
+		24712F711B481EA800EB8F30 /* UIImage+TICKCrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 24712F701B481EA800EB8F30 /* UIImage+TICKCrop.m */; };
+		24712F741B481EB800EB8F30 /* CropImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24712F731B481EB800EB8F30 /* CropImageViewController.m */; };
+		24AE2A631B48271E007E95F2 /* UIImage+TICKSave.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AE2A621B48271E007E95F2 /* UIImage+TICKSave.m */; };
+		24AE2A671B482D52007E95F2 /* UIImage+TICKScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AE2A661B482D52007E95F2 /* UIImage+TICKScale.m */; };
+		24AE2A6A1B4830D7007E95F2 /* ScaleImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AE2A691B4830D7007E95F2 /* ScaleImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +39,28 @@
 		24712F3F1B48175C00EB8F30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		24712F411B48175C00EB8F30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		24712F421B48175C00EB8F30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		24712F441B48175C00EB8F30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		24712F451B48175C00EB8F30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		24712F481B48175C00EB8F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24712F4A1B48175C00EB8F30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		24712F4D1B48175C00EB8F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		24712F531B48175C00EB8F30 /* TICKCategoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TICKCategoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24712F581B48175C00EB8F30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24712F591B48175C00EB8F30 /* TICKCategoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TICKCategoryTests.m; sourceTree = "<group>"; };
+		24712F651B48184000EB8F30 /* UIImage+TICKSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TICKSnapshot.h"; sourceTree = "<group>"; };
+		24712F661B48184000EB8F30 /* UIImage+TICKSnapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TICKSnapshot.m"; sourceTree = "<group>"; };
+		24712F681B48197F00EB8F30 /* SnapshotImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapshotImageViewController.h; sourceTree = "<group>"; };
+		24712F691B48197F00EB8F30 /* SnapshotImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapshotImageViewController.m; sourceTree = "<group>"; };
+		24712F6B1B481A0B00EB8F30 /* CategoryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryListViewController.h; sourceTree = "<group>"; };
+		24712F6C1B481A0B00EB8F30 /* CategoryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryListViewController.m; sourceTree = "<group>"; };
+		24712F6F1B481EA800EB8F30 /* UIImage+TICKCrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TICKCrop.h"; sourceTree = "<group>"; };
+		24712F701B481EA800EB8F30 /* UIImage+TICKCrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TICKCrop.m"; sourceTree = "<group>"; };
+		24712F721B481EB800EB8F30 /* CropImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CropImageViewController.h; sourceTree = "<group>"; };
+		24712F731B481EB800EB8F30 /* CropImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CropImageViewController.m; sourceTree = "<group>"; };
+		24AE2A611B48271E007E95F2 /* UIImage+TICKSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TICKSave.h"; sourceTree = "<group>"; };
+		24AE2A621B48271E007E95F2 /* UIImage+TICKSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TICKSave.m"; sourceTree = "<group>"; };
+		24AE2A651B482D52007E95F2 /* UIImage+TICKScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TICKScale.h"; sourceTree = "<group>"; };
+		24AE2A661B482D52007E95F2 /* UIImage+TICKScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TICKScale.m"; sourceTree = "<group>"; };
+		24AE2A681B4830D7007E95F2 /* ScaleImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleImageViewController.h; sourceTree = "<group>"; };
+		24AE2A691B4830D7007E95F2 /* ScaleImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +102,21 @@
 		24712F3C1B48175C00EB8F30 /* TICKCategory */ = {
 			isa = PBXGroup;
 			children = (
+				24712F631B48182700EB8F30 /* TICKCategory */,
 				24712F411B48175C00EB8F30 /* AppDelegate.h */,
 				24712F421B48175C00EB8F30 /* AppDelegate.m */,
-				24712F441B48175C00EB8F30 /* ViewController.h */,
-				24712F451B48175C00EB8F30 /* ViewController.m */,
 				24712F471B48175C00EB8F30 /* Main.storyboard */,
 				24712F4A1B48175C00EB8F30 /* Images.xcassets */,
 				24712F4C1B48175C00EB8F30 /* LaunchScreen.xib */,
 				24712F3D1B48175C00EB8F30 /* Supporting Files */,
+				24712F6B1B481A0B00EB8F30 /* CategoryListViewController.h */,
+				24712F6C1B481A0B00EB8F30 /* CategoryListViewController.m */,
+				24712F681B48197F00EB8F30 /* SnapshotImageViewController.h */,
+				24712F691B48197F00EB8F30 /* SnapshotImageViewController.m */,
+				24712F721B481EB800EB8F30 /* CropImageViewController.h */,
+				24712F731B481EB800EB8F30 /* CropImageViewController.m */,
+				24AE2A681B4830D7007E95F2 /* ScaleImageViewController.h */,
+				24AE2A691B4830D7007E95F2 /* ScaleImageViewController.m */,
 			);
 			path = TICKCategory;
 			sourceTree = "<group>";
@@ -117,6 +145,53 @@
 				24712F581B48175C00EB8F30 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24712F631B48182700EB8F30 /* TICKCategory */ = {
+			isa = PBXGroup;
+			children = (
+				24AE2A641B482D47007E95F2 /* TICKScaleImage */,
+				24AE2A601B482711007E95F2 /* TICKSaveImage */,
+				24712F6E1B481E9600EB8F30 /* TICKCropImage */,
+				24712F641B48182700EB8F30 /* TICKSnapshotImage */,
+			);
+			path = TICKCategory;
+			sourceTree = "<group>";
+		};
+		24712F641B48182700EB8F30 /* TICKSnapshotImage */ = {
+			isa = PBXGroup;
+			children = (
+				24712F651B48184000EB8F30 /* UIImage+TICKSnapshot.h */,
+				24712F661B48184000EB8F30 /* UIImage+TICKSnapshot.m */,
+			);
+			path = TICKSnapshotImage;
+			sourceTree = "<group>";
+		};
+		24712F6E1B481E9600EB8F30 /* TICKCropImage */ = {
+			isa = PBXGroup;
+			children = (
+				24712F6F1B481EA800EB8F30 /* UIImage+TICKCrop.h */,
+				24712F701B481EA800EB8F30 /* UIImage+TICKCrop.m */,
+			);
+			path = TICKCropImage;
+			sourceTree = "<group>";
+		};
+		24AE2A601B482711007E95F2 /* TICKSaveImage */ = {
+			isa = PBXGroup;
+			children = (
+				24AE2A611B48271E007E95F2 /* UIImage+TICKSave.h */,
+				24AE2A621B48271E007E95F2 /* UIImage+TICKSave.m */,
+			);
+			path = TICKSaveImage;
+			sourceTree = "<group>";
+		};
+		24AE2A641B482D47007E95F2 /* TICKScaleImage */ = {
+			isa = PBXGroup;
+			children = (
+				24AE2A651B482D52007E95F2 /* UIImage+TICKScale.h */,
+				24AE2A661B482D52007E95F2 /* UIImage+TICKScale.m */,
+			);
+			path = TICKScaleImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +294,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24712F461B48175C00EB8F30 /* ViewController.m in Sources */,
+				24712F671B48184000EB8F30 /* UIImage+TICKSnapshot.m in Sources */,
 				24712F431B48175C00EB8F30 /* AppDelegate.m in Sources */,
+				24712F711B481EA800EB8F30 /* UIImage+TICKCrop.m in Sources */,
+				24AE2A6A1B4830D7007E95F2 /* ScaleImageViewController.m in Sources */,
+				24AE2A631B48271E007E95F2 /* UIImage+TICKSave.m in Sources */,
+				24AE2A671B482D52007E95F2 /* UIImage+TICKScale.m in Sources */,
+				24712F6A1B48197F00EB8F30 /* SnapshotImageViewController.m in Sources */,
+				24712F6D1B481A0B00EB8F30 /* CategoryListViewController.m in Sources */,
+				24712F741B481EB800EB8F30 /* CropImageViewController.m in Sources */,
 				24712F401B48175C00EB8F30 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +500,7 @@
 				24712F5F1B48175C00EB8F30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24712F601B48175C00EB8F30 /* Build configuration list for PBXNativeTarget "TICKCategoryTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +509,7 @@
 				24712F621B48175C00EB8F30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

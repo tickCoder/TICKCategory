@@ -17,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+//    // some useless test
+    self.window.tintColor = [UIColor redColor];
+//    UINavigationController *tNav = (UINavigationController *)self.window.rootViewController;
+//    tNav.navigationBar.barTintColor = [UIColor purpleColor];
+//    tNav.navigationBar.tintColor = [UIColor orangeColor];
     return YES;
 }
 
