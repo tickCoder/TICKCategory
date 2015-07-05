@@ -1,5 +1,5 @@
 # TICKCategory
-A iOS category collection.
+A collection of iOS Category.
 
 * UIImage+TICKScale
 * UIImage+TICKSave
