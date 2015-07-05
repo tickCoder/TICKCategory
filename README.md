@@ -7,3 +7,8 @@ A collection of iOS Category.
 * UIImage+TICKSnapshot
 * UIColor+TICKHex
 * UIColor+TICKRGBA
+* UIView+TICKEaseInOut
+* NSString+TICKURLEncode
+* NSArray+TICKArchive
+* NSDictionary+TICKSortedKeys
+* NSDictionary+TICKArchive
