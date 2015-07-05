@@ -9,5 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface UIImage (TICKCrop)
+/*!
+ *  @brief  Crop image with rect.
+ *
+ *  @param aImage SourceImage
+ *  @param aRect  Crop Rect.
+ *
+ *  @return UIImage croped
+ */
 + (UIImage *)tick_imageFromImage:(UIImage *)aImage inRect:(CGRect)aRect;
 @end

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24593E411B48D02100E75318 /* UIColor+TICKRGBA.m in Sources */ = {isa = PBXBuildFile; fileRef = 24593E401B48D02100E75318 /* UIColor+TICKRGBA.m */; };
+		24593E441B48D05300E75318 /* UIColor+TICKHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 24593E431B48D05300E75318 /* UIColor+TICKHex.m */; };
 		24712F401B48175C00EB8F30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24712F3F1B48175C00EB8F30 /* main.m */; };
 		24712F431B48175C00EB8F30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24712F421B48175C00EB8F30 /* AppDelegate.m */; };
 		24712F491B48175C00EB8F30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24712F471B48175C00EB8F30 /* Main.storyboard */; };
@@ -21,6 +23,8 @@
 		24AE2A631B48271E007E95F2 /* UIImage+TICKSave.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AE2A621B48271E007E95F2 /* UIImage+TICKSave.m */; };
 		24AE2A671B482D52007E95F2 /* UIImage+TICKScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AE2A661B482D52007E95F2 /* UIImage+TICKScale.m */; };
 		24AE2A6A1B4830D7007E95F2 /* ScaleImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AE2A691B4830D7007E95F2 /* ScaleImageViewController.m */; };
+		24AE2A7B1B483DA6007E95F2 /* HexColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AE2A7A1B483DA6007E95F2 /* HexColorViewController.m */; };
+		24AE2A7E1B483DB1007E95F2 /* RGBAColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AE2A7D1B483DB1007E95F2 /* RGBAColorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24593E3F1B48D02100E75318 /* UIColor+TICKRGBA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TICKRGBA.h"; sourceTree = "<group>"; };
+		24593E401B48D02100E75318 /* UIColor+TICKRGBA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TICKRGBA.m"; sourceTree = "<group>"; };
+		24593E421B48D05300E75318 /* UIColor+TICKHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TICKHex.h"; sourceTree = "<group>"; };
+		24593E431B48D05300E75318 /* UIColor+TICKHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TICKHex.m"; sourceTree = "<group>"; };
 		24712F3A1B48175C00EB8F30 /* TICKCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TICKCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24712F3E1B48175C00EB8F30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24712F3F1B48175C00EB8F30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -61,6 +69,10 @@
 		24AE2A661B482D52007E95F2 /* UIImage+TICKScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TICKScale.m"; sourceTree = "<group>"; };
 		24AE2A681B4830D7007E95F2 /* ScaleImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleImageViewController.h; sourceTree = "<group>"; };
 		24AE2A691B4830D7007E95F2 /* ScaleImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleImageViewController.m; sourceTree = "<group>"; };
+		24AE2A791B483DA6007E95F2 /* HexColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexColorViewController.h; sourceTree = "<group>"; };
+		24AE2A7A1B483DA6007E95F2 /* HexColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexColorViewController.m; sourceTree = "<group>"; };
+		24AE2A7C1B483DB1007E95F2 /* RGBAColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGBAColorViewController.h; sourceTree = "<group>"; };
+		24AE2A7D1B483DB1007E95F2 /* RGBAColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGBAColorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24593E3D1B48D02100E75318 /* TICKHexColor */ = {
+			isa = PBXGroup;
+			children = (
+				24593E421B48D05300E75318 /* UIColor+TICKHex.h */,
+				24593E431B48D05300E75318 /* UIColor+TICKHex.m */,
+			);
+			path = TICKHexColor;
+			sourceTree = "<group>";
+		};
+		24593E3E1B48D02100E75318 /* TICKRGBAColor */ = {
+			isa = PBXGroup;
+			children = (
+				24593E3F1B48D02100E75318 /* UIColor+TICKRGBA.h */,
+				24593E401B48D02100E75318 /* UIColor+TICKRGBA.m */,
+			);
+			path = TICKRGBAColor;
+			sourceTree = "<group>";
+		};
 		24712F311B48175C00EB8F30 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +147,10 @@
 				24712F731B481EB800EB8F30 /* CropImageViewController.m */,
 				24AE2A681B4830D7007E95F2 /* ScaleImageViewController.h */,
 				24AE2A691B4830D7007E95F2 /* ScaleImageViewController.m */,
+				24AE2A791B483DA6007E95F2 /* HexColorViewController.h */,
+				24AE2A7A1B483DA6007E95F2 /* HexColorViewController.m */,
+				24AE2A7C1B483DB1007E95F2 /* RGBAColorViewController.h */,
+				24AE2A7D1B483DB1007E95F2 /* RGBAColorViewController.m */,
 			);
 			path = TICKCategory;
 			sourceTree = "<group>";
@@ -150,6 +184,8 @@
 		24712F631B48182700EB8F30 /* TICKCategory */ = {
 			isa = PBXGroup;
 			children = (
+				24593E3D1B48D02100E75318 /* TICKHexColor */,
+				24593E3E1B48D02100E75318 /* TICKRGBAColor */,
 				24AE2A641B482D47007E95F2 /* TICKScaleImage */,
 				24AE2A601B482711007E95F2 /* TICKSaveImage */,
 				24712F6E1B481E9600EB8F30 /* TICKCropImage */,
@@ -298,11 +334,15 @@
 				24712F431B48175C00EB8F30 /* AppDelegate.m in Sources */,
 				24712F711B481EA800EB8F30 /* UIImage+TICKCrop.m in Sources */,
 				24AE2A6A1B4830D7007E95F2 /* ScaleImageViewController.m in Sources */,
+				24AE2A7E1B483DB1007E95F2 /* RGBAColorViewController.m in Sources */,
 				24AE2A631B48271E007E95F2 /* UIImage+TICKSave.m in Sources */,
+				24593E411B48D02100E75318 /* UIColor+TICKRGBA.m in Sources */,
 				24AE2A671B482D52007E95F2 /* UIImage+TICKScale.m in Sources */,
 				24712F6A1B48197F00EB8F30 /* SnapshotImageViewController.m in Sources */,
 				24712F6D1B481A0B00EB8F30 /* CategoryListViewController.m in Sources */,
+				24593E441B48D05300E75318 /* UIColor+TICKHex.m in Sources */,
 				24712F741B481EB800EB8F30 /* CropImageViewController.m in Sources */,
+				24AE2A7B1B483DA6007E95F2 /* HexColorViewController.m in Sources */,
 				24712F401B48175C00EB8F30 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -229,6 +229,42 @@
                                             <segue destination="Sje-J6-c2t" kind="show" id="jeS-Uu-WBB"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="3rG-f5-87z" style="IBUITableViewCellStyleDefault" id="z82-It-Ohw">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="z82-It-Ohw" id="4Nk-AH-vwl">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="TICKHexColor" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3rG-f5-87z">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="wl6-bU-I3u" kind="show" id="cBm-bA-8Ie"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="Gby-7f-Q7K" style="IBUITableViewCellStyleDefault" id="qjA-Ug-Kag">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qjA-Ug-Kag" id="RcW-Sa-6no">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="TICKRGBAColor" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Gby-7f-Q7K">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="OA4-lH-NYT" kind="show" id="dtY-jY-Igj"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -242,6 +278,98 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3IJ-wX-ddh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1334" y="100"/>
+        </scene>
+        <!--HexColorViewController-->
+        <scene sceneID="g2A-sG-O8e">
+            <objects>
+                <viewController title="HexColorViewController" id="wl6-bU-I3u" customClass="HexColorViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ejB-lH-M5f"/>
+                        <viewControllerLayoutGuide type="bottom" id="SOp-NJ-ZoK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KcX-Hs-O4I">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s5a-dT-0wA">
+                                <rect key="frame" x="250" y="117" width="100" height="100"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="DRF-go-7Am"/>
+                                    <constraint firstAttribute="height" constant="100" id="XjE-rk-PmV"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="s5a-dT-0wA" firstAttribute="top" secondItem="ejB-lH-M5f" secondAttribute="bottom" constant="53" id="DW3-Mn-HGe"/>
+                            <constraint firstAttribute="centerX" secondItem="s5a-dT-0wA" secondAttribute="centerX" id="S0a-6z-sb9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="colorView" destination="s5a-dT-0wA" id="kGK-TU-nfX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xdb-2c-XXR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-534" y="2274"/>
+        </scene>
+        <!--TICKRGBAColor-->
+        <scene sceneID="21O-Qc-60t">
+            <objects>
+                <viewController title="TICKRGBAColor" id="OA4-lH-NYT" customClass="RGBAColorViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="frF-fl-LwO"/>
+                        <viewControllerLayoutGuide type="bottom" id="b4b-mg-LXx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="caK-4h-6wj">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yBd-vu-AwG">
+                                <rect key="frame" x="264" y="175" width="72" height="30"/>
+                                <state key="normal" title="Get RGBA">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="rgbaAction:" destination="OA4-lH-NYT" eventType="touchUpInside" id="Zte-PW-w1c"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RGBA Value" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A3n-BI-ByS">
+                                <rect key="frame" x="253" y="246" width="94" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UIColor colorWithRed:0.4 green:0.7 blue:3.5 alpha:0.7" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6u3-Nm-Vz2">
+                                <rect key="frame" x="0.0" y="123" width="600" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="adjustsFontSizeToFitWidth" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6u3-Nm-Vz2" firstAttribute="leading" secondItem="caK-4h-6wj" secondAttribute="leading" id="5Kj-HO-qTQ"/>
+                            <constraint firstItem="yBd-vu-AwG" firstAttribute="top" secondItem="6u3-Nm-Vz2" secondAttribute="bottom" constant="31" id="6yG-XI-ahQ"/>
+                            <constraint firstItem="yBd-vu-AwG" firstAttribute="centerX" secondItem="A3n-BI-ByS" secondAttribute="centerX" id="C3G-O7-tda"/>
+                            <constraint firstAttribute="trailing" secondItem="6u3-Nm-Vz2" secondAttribute="trailing" id="Eap-iW-0hw"/>
+                            <constraint firstItem="6u3-Nm-Vz2" firstAttribute="centerX" secondItem="yBd-vu-AwG" secondAttribute="centerX" id="KfC-l8-ClG"/>
+                            <constraint firstItem="A3n-BI-ByS" firstAttribute="top" secondItem="yBd-vu-AwG" secondAttribute="bottom" constant="41" id="Y7k-Wa-5mC"/>
+                            <constraint firstItem="6u3-Nm-Vz2" firstAttribute="top" secondItem="frF-fl-LwO" secondAttribute="bottom" constant="59" id="cqq-5Y-Bzx"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="rbgaValueLabel" destination="A3n-BI-ByS" id="jaE-lp-X6t"/>
+                        <outlet property="sampleColorLabel" destination="6u3-Nm-Vz2" id="4fj-gt-Wlf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k5r-H0-7Cl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-534" y="1578"/>
         </scene>
     </scenes>
     <resources>

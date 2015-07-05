@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface UIImage (TICKSnapshot)
+/*!
+ *  @brief  Snapshot image of UIView
+ *
+ *  @param aView source UIView
+ *
+ *  @return UIImage
+ */
 + (UIImage *)tick_imageSnaphotOfView:(UIView *)aView;
 @end

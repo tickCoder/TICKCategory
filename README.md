@@ -5,3 +5,5 @@ A iOS category collection.
 * UIImage+TICKSave
 * UIImage+TICKCrop
 * UIImage+TICKSnapshot
+* UIColor+TICKHex
+* UIColor+TICKRGBA

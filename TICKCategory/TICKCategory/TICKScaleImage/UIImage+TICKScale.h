@@ -9,5 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface UIImage (TICKScale)
+/*!
+ *  @brief  Scaled UIImage to size
+ *
+ *  @param aSize      Target Image Size
+ *  @param aKeepRadio Whether UIIMage keep radio
+ *
+ *  @return UIImage
+ */
 - (UIImage *)tick_imageScaledToSize:(CGSize)aSize keepRadio:(BOOL)aKeepRadio;
 @end
