@@ -30,6 +30,8 @@
 		24AE2A6A1B4830D7007E95F2 /* ScaleImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AE2A691B4830D7007E95F2 /* ScaleImageViewController.m */; };
 		24AE2A7B1B483DA6007E95F2 /* HexColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AE2A7A1B483DA6007E95F2 /* HexColorViewController.m */; };
 		24AE2A7E1B483DB1007E95F2 /* RGBAColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AE2A7D1B483DB1007E95F2 /* RGBAColorViewController.m */; };
+		24FD65C31B567CB900AE97D3 /* UIButton+TICKBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FD65C21B567CB900AE97D3 /* UIButton+TICKBlock.m */; };
+		24FD65C61B567EAA00AE97D3 /* BlockButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FD65C51B567EAA00AE97D3 /* BlockButtonViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +90,10 @@
 		24AE2A7A1B483DA6007E95F2 /* HexColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexColorViewController.m; sourceTree = "<group>"; };
 		24AE2A7C1B483DB1007E95F2 /* RGBAColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGBAColorViewController.h; sourceTree = "<group>"; };
 		24AE2A7D1B483DB1007E95F2 /* RGBAColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGBAColorViewController.m; sourceTree = "<group>"; };
+		24FD65C11B567CB900AE97D3 /* UIButton+TICKBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TICKBlock.h"; sourceTree = "<group>"; };
+		24FD65C21B567CB900AE97D3 /* UIButton+TICKBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TICKBlock.m"; sourceTree = "<group>"; };
+		24FD65C41B567EAA00AE97D3 /* BlockButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockButtonViewController.h; sourceTree = "<group>"; };
+		24FD65C51B567EAA00AE97D3 /* BlockButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockButtonViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +217,8 @@
 				24AE2A7A1B483DA6007E95F2 /* HexColorViewController.m */,
 				24AE2A7C1B483DB1007E95F2 /* RGBAColorViewController.h */,
 				24AE2A7D1B483DB1007E95F2 /* RGBAColorViewController.m */,
+				24FD65C41B567EAA00AE97D3 /* BlockButtonViewController.h */,
+				24FD65C51B567EAA00AE97D3 /* BlockButtonViewController.m */,
 			);
 			path = TICKCategory;
 			sourceTree = "<group>";
@@ -244,6 +252,7 @@
 		24712F631B48182700EB8F30 /* TICKCategory */ = {
 			isa = PBXGroup;
 			children = (
+				24FD65C01B567CB900AE97D3 /* TICKBlockButton */,
 				24593E6F1B4926D100E75318 /* TICKArchiveArray */,
 				24593E721B4926D100E75318 /* TICKArchiveDict */,
 				24593E751B4926D100E75318 /* TICKEaseInOutView */,
@@ -293,6 +302,15 @@
 				24AE2A661B482D52007E95F2 /* UIImage+TICKScale.m */,
 			);
 			path = TICKScaleImage;
+			sourceTree = "<group>";
+		};
+		24FD65C01B567CB900AE97D3 /* TICKBlockButton */ = {
+			isa = PBXGroup;
+			children = (
+				24FD65C11B567CB900AE97D3 /* UIButton+TICKBlock.h */,
+				24FD65C21B567CB900AE97D3 /* UIButton+TICKBlock.m */,
+			);
+			path = TICKBlockButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -401,10 +419,12 @@
 				24593E811B4926D100E75318 /* UIView+TICKEaseInOut.m in Sources */,
 				24AE2A6A1B4830D7007E95F2 /* ScaleImageViewController.m in Sources */,
 				24593E801B4926D100E75318 /* NSDictionary+TICKArchive.m in Sources */,
+				24FD65C61B567EAA00AE97D3 /* BlockButtonViewController.m in Sources */,
 				24593E821B4926D100E75318 /* NSDictionary+TICKSortedKeys.m in Sources */,
 				24593E7F1B4926D100E75318 /* NSArray+TICKArchive.m in Sources */,
 				24AE2A7E1B483DB1007E95F2 /* RGBAColorViewController.m in Sources */,
 				24593E831B4926D100E75318 /* NSString+TICKURLEncode.m in Sources */,
+				24FD65C31B567CB900AE97D3 /* UIButton+TICKBlock.m in Sources */,
 				24AE2A631B48271E007E95F2 /* UIImage+TICKSave.m in Sources */,
 				24593E411B48D02100E75318 /* UIColor+TICKRGBA.m in Sources */,
 				24AE2A671B482D52007E95F2 /* UIImage+TICKScale.m in Sources */,

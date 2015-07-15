@@ -12,3 +12,4 @@ A collection of iOS Category.
 * NSArray+TICKArchive
 * NSDictionary+TICKSortedKeys
 * NSDictionary+TICKArchive
+* UIButton+TICKButtonBlock

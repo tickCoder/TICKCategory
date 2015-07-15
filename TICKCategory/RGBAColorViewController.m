@@ -27,5 +27,6 @@
     }
     self.rbgaValueLabel.adjustsFontSizeToFitWidth = YES;
     self.rbgaValueLabel.text = tColorsStr;
+    self.rbgaValueLabel.textColor = [UIColor colorWithRed:[[tColors objectAtIndex:0] doubleValue] green:[[tColors objectAtIndex:1] doubleValue] blue:[[tColors objectAtIndex:2] doubleValue] alpha:[[tColors objectAtIndex:3] doubleValue]];
 }
 @end
